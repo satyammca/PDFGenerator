@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfcreator>
+	<block title="block1" columns="">
+		<!-- title values are fetching from server side  -->
+		
+		<labelfield title="userId" value="personalDetailsModel.userId"/>
+		<labelfield title="emailId" value="personalDetailsModel.emailId"/>
+		<labelfield title="firstName" value="personalDetailsModel.firstName"/>
+		<labelfield title="lastName" value="personalDetailsModel.lastName"/>
+		<labelfield title="mobileNumber" value="personalDetailsModel.mobileNumber"/>
+		<labelfield title="country" value="personalDetailsModel.personalDetailsLocation.country"/>
+		<labelfield title="state" value="personalDetailsModel.personalDetailsLocation.state"/>
+		<labelfield title="locality" value="personalDetailsModel.personalDetailsLocation.locality"/>
+				
+	</block>
+</pdfcreator>

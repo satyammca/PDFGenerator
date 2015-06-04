@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfcreator>
+	<block title="block1" columns="">
+		<field value="personalDetailsModel.userId"/>
+		<field value="personalDetailsModel.emailId"/>
+		<field value="personalDetailsModel.firstName"/>
+		<field value="personalDetailsModel.lastName"/>
+		<field value="personalDetailsModel.mobileNumber"/>
+		<field value="personalDetailsModel.personalDetailsLocation.country"/>
+		<field value="personalDetailsModel.personalDetailsLocation.state"/>
+		<field value="personalDetailsModel.personalDetailsLocation.locality"/>
+	</block>
+</pdfcreator>

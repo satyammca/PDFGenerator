@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfcreator>
+	<block title="block4" columns="">
+       <table fontsize="8" value="workExpModelList">
+			<column title="company" value="company"/>
+			<column title="start-date" value="startDate"/>
+			<column title="end-date" value="endDate"/>
+			
+       </table>
+	</block>               
+</pdfcreator>

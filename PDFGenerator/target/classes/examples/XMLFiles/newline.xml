@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfcreator>
+	<block title="block1" columns="">
+		<newline/>
+		<heading title="project-title" />
+		<newline></newline>
+		<newline></newline>
+		<newline></newline>
+		<newline></newline>
+		<heading title="project-title" />
+	</block>
+</pdfcreator>

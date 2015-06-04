@@ -1,0 +1,42 @@
+This PDFGeneratorUtility generates PDF file from XML Structure and Java. In XML file, you can declare output pdf file structure and provide dynamic values via Java technology.
+
+In this project, You can find examples to insert the below components into the PDF document.
+
+1.       label,
+
+2.      field data,
+
+3.      heading,
+
+4.      paragraph,
+
+5.      newline,
+
+6.      table
+
+The above components, you can insert into the pdf document with the help of this project. This is maven project, you can generate .jar file and the same you can use in  web applications development as well as portlet development and so on. Present, default look and feel apply on the components based on the component type. You can customize default look and feel of the components in this project.
+
+ 
+
+This PDFGeneratorUtility tool internally uses:
+
+1.      Itextpdf-5.0.6 : iTextpdf generate PDF documents dynamically. You can find iText api usage in this PDFGeneratorUtility tool.
+
+2.      juel-impl-2.2.2 : JUEL is an implementation of the Unified Expression Language (EL)
+
+3.      jaxen-1.1.6 : Jaxen is an open source XPath library written in Java. It is adaptable to many different object models, including DOM, XOM, dom4j, and JDOM.
+
+4.      jdom-1.1 : JDOM is an open source API designed to represent an XML document and its contents to the Java developer in an intuitive and straightforward way.
+
+ 
+
+This pdf generator supports internationalization. Present this project demonstrates English and Arabic languages.
+
+This pdf generator supports different fonts based on locales. This project uses 1. arabtype.ttf for English language 2. DroidKufiRegular.ttf for Arabic language.
+
+You can arrange entire pdf in XML structure format.
+
+Mapped dynamic values in PDF Structured XML file, pass via Java technology.
+
+Note: If PDF file is not opened or corrupted then provide the new pdf file as output pdf file.
+

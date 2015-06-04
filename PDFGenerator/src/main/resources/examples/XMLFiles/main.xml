@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfcreator>
+	<block title="block1" columns="">
+		<heading title="project-title" />
+	</block>
+	<block title="block2" columns="">
+		<!-- title values are fetching from server side  -->
+		
+		<paragraph title="user-experience" value="personalDetailsModel.userExperience"/>
+				
+	</block>
+	<block title="block3" columns="">
+
+		<label title="userId" />
+		<field value="personalDetailsModel.userId" />
+		<label title="emailId" />
+		<field value="personalDetailsModel.emailId" />
+		<label title="firstName" />
+		<field value="personalDetailsModel.firstName" />
+		<label title="lastName" />
+		<field value="personalDetailsModel.lastName" />
+		<label title="mobileNumber" />
+		<field value="personalDetailsModel.mobileNumber" />
+		<label title="country" />
+		<field value="personalDetailsModel.personalDetailsLocation.country" />
+		<label title="state" />
+		<field value="personalDetailsModel.personalDetailsLocation.state" />
+		<label title="locality" />
+		<field value="personalDetailsModel.personalDetailsLocation.locality" />
+
+	</block>
+
+	<block title="block4" columns="">
+		<newline></newline>
+		<newline></newline>
+		<heading title="data-table" />
+		<newline></newline>
+		<newline></newline>
+	</block>
+
+	<block title="block5" columns="">
+		<table fontsize="8" value="workExpModelList">
+			<column title="company" value="company"/>
+			<column title="start-date" value="startDate"/>
+			<column title="end-date" value="endDate"/>
+       </table>
+	</block>
+	
+	<block title="block6" columns="">
+		<newline></newline>
+		<newline></newline>
+		<heading title="personal-details-summary" />
+		<newline></newline>
+		<newline></newline>
+	</block>
+	
+	<block title="block7" columns="">
+		<!-- title values are fetching from server side  -->
+		
+		<labelfield title="userId" value="personalDetailsModel.userId"/>
+		<labelfield title="emailId" value="personalDetailsModel.emailId"/>
+		<labelfield title="firstName" value="personalDetailsModel.firstName"/>
+		<labelfield title="lastName" value="personalDetailsModel.lastName"/>
+		<labelfield title="mobileNumber" value="personalDetailsModel.mobileNumber"/>
+		<labelfield title="country" value="personalDetailsModel.personalDetailsLocation.country"/>
+		<labelfield title="state" value="personalDetailsModel.personalDetailsLocation.state"/>
+		<labelfield title="locality" value="personalDetailsModel.personalDetailsLocation.locality"/>
+				
+	</block>
+</pdfcreator>

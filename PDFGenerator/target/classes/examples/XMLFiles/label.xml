@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdfcreator>
+	<block title="block1" columns="">
+	<!-- title values are fetching from language properties  -->
+		<label title="userId"/>
+		<label title="emailId"/>
+		<label title="firstName"/>
+		<label title="lastName"/>
+		<label title="mobileNumber"/>
+		<label title="country"/>
+		<label title="state"/>
+		<label title="locality"/>
+		
+	</block>
+</pdfcreator>
